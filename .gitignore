@@ -1,0 +1,33 @@
+# Secrets: never commit these
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependencies and build output
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Uploaded or private documents, temporary files, local database files
+uploads/
+tmp/
+temp/
+*.tmp
+data/
+*.db
+*.sqlite
+mongodb-data/
+
+# Logs and editor files
+*.log
+npm-debug.log*
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Qdrant (vector database) program and its stored data, if kept inside the project folder
+qdrant/
+storage/
+*.snapshot
