@@ -8,6 +8,15 @@ contain the answer, the assistant says so instead of guessing:
 
 ![Two documents ticked, answers with sources](docs/screenshots/11-two-documents-ticked.png)
 
+## Demo video
+
+A short screen recording (about 1.5 minutes) of the app: uploading a PDF, asking questions, seeing the
+source excerpts, and getting the "couldn't find" answer for a question the document cannot answer.
+
+[![Watch the demo video](docs/screenshots/08-answer-with-source.png)](docs/demo.mp4)
+
+[Watch or download the demo video](docs/demo.mp4) (`docs/demo.mp4`, 12 MB). On GitHub, click the link and the video plays in the browser.
+
 ## Features
 
 - Add PDF or TXT files (max 10 MB), by button or drag and drop. Checked in the browser **and** on the server.
